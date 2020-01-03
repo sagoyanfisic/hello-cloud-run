@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
     date: today,
     up: `${(Date.now() - dateUp)/1000} seg.`,
     repo: 'https://github.com/sagoyanfisic/hello-cloud-run',
+    extra: '1',
     url: 'https://tuxsago.wordpress.com'
   });
 });
