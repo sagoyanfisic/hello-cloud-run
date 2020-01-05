@@ -17,8 +17,8 @@ RUN wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O /build/cl
 RUN chmod +x /build/cloud_sql_proxy
 
 # copy the wrapper script and credentials
-COPY run.sh /build/run.sh
-COPY credentials.json /build/credentials.json
+#COPY run.sh /build/run.sh
+#COPY credentials.json /build/credentials.json
 
 
 
